@@ -1,0 +1,79 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container Styles */
+  .container {
+    margin: 20px;
+  }
+  
+  /* Table Styles */
+  .table-bordered {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .thead-dark {
+    background-color: #333;
+    color: white;
+  }
+  
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Pagination Styles */
+  .pagination {
+    margin-top: 15px;
+  }
+  
+  .page-item.disabled .page-link {
+    color: #ccc;
+    pointer-events: none;
+  }
+  
+  .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .page-link {
+    color: #007bff;
+    border: 1px solid #ddd;
+  }
+  
+  .page-link:hover {
+    background-color: #f7f7f7;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .table-bordered {
+      font-size: 14px;
+    }
+  }
+  /* Link Styles */
+a {
+    color: black; /* Change this color to your desired text color */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,42 @@
+<div class="container d-flex justify-content-center align-items-center vh-100">
+  <div class="row">
+    <div class="col">
+      <h2>Additional Data</h2>
+      <table class="table table-bordered">
+        <thead class="thead-dark">
+          <tr>
+            <th>SKU Code</th>
+            <th>SKU Name</th>
+            <th>Plant</th>
+            <th>Lead Time in Days</th>
+            <th>Daily Cutoff Time</th>
+            <th>Model Qty</th>
+            <th>Max Qty</th>
+            <th>Exclusive Indicator</th>
+            <!-- Add more headers for other properties as needed -->
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of additionalData">
+            <td>{{ item.SKUCode }}</td>
+            <td>{{ item.SerialNumber }}</td>
+            <td>
+              <select disabled>
+                  <option value="action1">select</option>      </select>
+          </td>
+            <td>{{ item.LeadTimeInDays }}</td>
+            <td>{{ item.DailyCutOffTime }}</td>
+            <td>
+              <div class="square-box">{{ item.ModelQty }}</div>
+            </td>
+            <td>
+              <div class="square-box">{{ item.SS }}</div>
+            </td>
+            <td><input type="checkbox" disabled></td>
+            <!-- Add more table cells for other properties as needed -->
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
